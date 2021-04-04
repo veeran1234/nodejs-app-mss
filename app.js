@@ -28,7 +28,7 @@ app.get('/mithuntechnologies', function(request, response) {
  
 
 //app.get("/html", function(req,res){
-app.get("/html", function(req,res){
+app.get("/htm", function(req,res){
     res.set("Content-Type","text/html");
     //res.contentType("html") ; 
     res.write("<h2>Welsfsafasdfasdfasdgsdgcome</h2>");

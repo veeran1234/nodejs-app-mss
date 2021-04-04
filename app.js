@@ -37,6 +37,16 @@ app.get("/htm", function(req,res){
     res.end();
     
     });
+    app.get("/html1", function(req,res){
+    res.set("Content-Type","text/html");
+    //res.contentType("html") ;
+    res.write("<h2>Welsfsafasdfasdfasdgsdgcome</h2>");
+    res.write("<h2>/html call</h2>");
+    //must end
+    res.end();
+
+    });
+
     app.get("/jsonData", function(req,res){
         res.type('json');
         //res.type('application/json');
